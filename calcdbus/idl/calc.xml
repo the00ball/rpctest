@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<node name="/rpctest/dbus/Calc">
+  <interface name="rpctest.dbus.Calc">
+   <method name="Sum">
+     <arg type="i" name="a" direction="in" />
+     <arg type="i" name="b" direction="in" />
+     <arg type="i" name="value" direction="out" />
+   </method>
+  </interface>
+</node>
